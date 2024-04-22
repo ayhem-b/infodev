@@ -17,26 +17,14 @@
       profile: "a-mhamdi",
     ),
 
-    /*
+    
     (
-      name: "Student 1",
+      name: "Belkhamsa Ayhem",
       department: [Dept. of EE],
       organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
+      profile: "Ayhem99",
     ),
-    (
-      name: "Student 2",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    ),
-    (
-      name: "Student 3",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    )
-  */
+    
 
   )
   // index-terms: (""),
@@ -79,5 +67,7 @@ We can now open the browser and navigate to the link #highlight[#link("localhost
 
 #test[You are asked to add two extra sliders that modify the behaviour of the sine wave graph:
 	+ _Phase_ ranging between $-pi$ and $pi$, changes by a step of $pi/100$
+*DONE*(i've added it to the original files look at the julia and HTML files)
 	+ _Offset_ varies from $-0.5$ to $1$, by a step of $0.1$.]
+*DONE*(i've added it to the original files look at the julia and HTML files)
 
