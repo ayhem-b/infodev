@@ -18,7 +18,7 @@
 
     
     (
-      name: "SAyhem Belkhamsa",
+      name: "Ayhem Belkhamsa",
       department: [Dept. of EE],
       organization: [ISET Bizerte --- Tunisia],
       profile: "ayhem-b",
@@ -31,26 +31,44 @@
 )
 
 = Exercises
-The following exercises will help you practice various aspects of Julia, such as functions, loops, conditionals, arrays, and file processing. Remember to break down the exercises into smaller steps and test your code along the way. You are required to carry out this lab using either of:
+The following exercises will help us practice various aspects of Julia, such as functions, loops, conditionals, arrays, and file processing. We should remember that we need to break down the exercises into smaller steps and test our code along the way. in this lab we'll be using:
+
+
 
 #figure(
     stack(
         dir: ltr,       // left-to-right
         spacing: 1cm,   // space between contents
-        image("Images/Jupyter.png", width: 10%, fit: "contain"),
-        image("Images/Pluto.svg", width: 50%, fit: "contain"),
+        image("Images/Jupyter.png", width: 20%, fit: "contain"),
+       
     ),
 )
-
+_if u don't have julia in your machine please follow the guide in my reposetorie "ayhem-b/Getting ready"_
 #exo[Fibonacci Sequence][Write a function that generates the Fibonacci sequence#footnote[The Fibonacci sequence starts with $0$ and $1$, and each subsequent number is the sum of the two preceding numbers.] up to a given number $n$.]
 
 $F_(0) = 0 \ F_(1) = 1 \  F_(n) = F_(n-1)+F_(n-2) quad forall n >= 2$
 
 ```julia
-# WRITE YOUR CODE HERE
+function fib(n=10)
+    F=zeros(n);
+    F[1]=1;F[2]=1;
+    for i=3:n
+        F[i]=F[i-1]+F[i-2];
+    end
+    F
+end
+
 ```
 
-#test[Display the Fibonacci sequence if $n=16$.]
+Display the Fibonacci sequence if $n=16$
+#figure(
+    stack(
+        dir: ltr,       // left-to-right
+        spacing: 1cm,   // space between contents
+        image("Images/Fibonacci.png", width: 50%, fit: "contain"),
+       
+    ),)
+
 
 #exo[Prime Number][Write a function that determines if a given number $n$ is prime#footnote[A prime number is a number greater than $1$ that has no positive divisors other than $1$ and itself.]. The function should return true if the number is prime and false otherwise.]
 
