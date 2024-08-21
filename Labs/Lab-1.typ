@@ -16,20 +16,14 @@
       profile: "a-mhamdi",
     ),
 
-    /*
+    
     (
-      name: "Student 1",
+      name: "SAyhem Belkhamsa",
       department: [Dept. of EE],
       organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
+      profile: "ayhem-b",
     ),
-    (
-      name: "Student 2",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    ),
-  */
+ 
 
   )
   // index-terms: (""),
